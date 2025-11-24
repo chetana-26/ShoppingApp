@@ -1,0 +1,94 @@
+.addproducts{
+    background: linear-gradient(rgba(0, 30, 255, 0.608) 50%,rgb(235, 221, 23));
+  /* background-color: rgb(208, 98, 116); */
+    h1{
+   text-align: center;
+    }
+    .cont{
+        
+        box-shadow: 1px 1px 8px black;
+       border: solid 1px black;
+       border-radius: 20px;
+       height: 550px;
+       width: 500px;
+       margin: 3vh auto;
+
+    }
+    form{
+        margin-top: 20px;
+        .inputs{
+            input{
+                text-align: center;
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-left: 100px;
+            width: 300px;
+            height: 40px;
+            }
+            select{
+                text-align: center;
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-left: 100px;
+            width: 300px;
+            height: 40px;
+            }
+            /* margin: auto; */
+        
+        }
+        button{
+            border-radius: 10px;
+                margin-top: 20px;
+                margin-left: 140px;
+            width: 200px;
+            height: 30px;
+            
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    .addproducts{
+        h1{
+            color: red;
+          text-align: center;
+        }
+        .cont{
+            
+         /* border: solid 1px black; */
+       /* border-radius: 20px; */
+       height: 550px;
+       width: 300px;
+       margin: auto;
+     
+        }
+        form{
+        .inputs{
+            input{
+                 border-radius: 10px;
+                margin-top: 20px;
+                margin-left: 30px;
+            width: 250px;
+            height: 40px;
+
+            }
+            select{
+                 border-radius: 10px;
+                margin-top: 20px;
+                margin-left: 30px;
+            width: 250px;
+            height: 40px;
+
+            }
+        }
+        button{
+             border-radius: 10px;
+            margin-top: 20px;
+            margin-left: 60px;
+            width: 170px;
+            height: 30px;
+
+        }
+    }
+    }
+    
+}
